@@ -42,7 +42,7 @@ app.post('/orders', (req, res) => {
 */
 if (require.main === module) {
   app.listen(PORT, () => {
-    console.log('Order service listening on port ' + PORT);
+    console.log('Order service is listening on port ' + PORT);
   });
 }
 

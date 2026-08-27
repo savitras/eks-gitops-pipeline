@@ -2,8 +2,8 @@
 replicaCount: 1
 
 image:
-  repository: "633267924979.dkr.ecr.us-east-1.amazonaws.com/order-service"
-  tag: "latest"
+  repository: 633267924979.dkr.ecr.us-east-1.amazonaws.com/order-service
+  tag: 2be461bc90364745d6640455aed7fd399a4a68b0
 
 resources:
   requests:

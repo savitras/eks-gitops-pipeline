@@ -2,7 +2,7 @@
 replicaCount: 3
 
 image:
-  repository: "463884819203.dkr.ecr.us-east-1.amazonaws.com/order-service"
+  repository: "633267924979.dkr.ecr.us-east-1.amazonaws.com/order-service"
   tag: "latest"
 
 autoscaling:
@@ -14,6 +14,3 @@ autoscaling:
 env:
   APP_VERSION: "production"
   NODE_ENV: "production"
-
-rollout:
-  enabled: true
